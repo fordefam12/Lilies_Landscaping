@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/images/lilies landscaping.webp';
+
+
+
 
 const Header = () => {
   return (
     <header>
+      <img src={Logo} alt="Lilies Landscaping Logo" />
       <h1>Lilie's Landscaping</h1>
       <nav>
         <ul>
