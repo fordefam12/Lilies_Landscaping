@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.your-submit-button-class{
+  opacity: 2;
+  border-radius: 100rem;
+}
