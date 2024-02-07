@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <VideoBackground /> {/* Include the VideoBackground component */}
+        
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
+        <VideoBackground /> {/* Include the VideoBackground component */}
         <Footer />
       </div>
     </Router>
