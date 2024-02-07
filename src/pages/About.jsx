@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css'; // Import a separate CSS file for additional styling
 import 'bulma/css/bulma.min.css';
 import Aimage from '../asstets/images/about image.webp';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // Set the default duration (in milliseconds)
+    });
+  }, []);
   return (
-    <div className="about-container">
+    <div className="about-container" >
       <section className="section">
         <div className="container">
           <h2 className="title">Our Story</h2>
@@ -24,7 +31,7 @@ const About = () => {
 
       <section className="section">
         <div className="container">
-          <h3 className="title ">Mission</h3>
+          <h3 className="title " data-aos="zoom-in" data-aos-duration="5000">Mission</h3>
           <p>
           <p>Lilies takes pride in delivering quality landscape designs and solutions which are tailored to each customer’s preferences.</p>
 

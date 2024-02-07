@@ -11,7 +11,10 @@ const Services = () => {
             alt="Residential and HOA Maintenance"
             className="service-image"
           />
-          <h2 className="title">Residential and HOA Maintenance</h2>
+          <h2 className="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="100"
+     data-aos-offset="0">Residential and HOA Maintenance</h2>
         </div>
       </section>
 
@@ -22,7 +25,10 @@ const Services = () => {
             alt="Tree Trimming and Removal"
             className="service-image"
           />
-          <h2 className="title">Tree Trimming and Removal</h2>
+          <h2 className="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="200"
+     data-aos-offset="0">Tree Trimming and Removal</h2>
         </div>
       </section>
 
@@ -33,7 +39,10 @@ const Services = () => {
             alt="Commercial Landscape"
             className="service-image"
           />
-          <h2 className="title">Commercial Landscape</h2>
+          <h2 className="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">Commercial Landscape</h2>
         </div>
       </section>
 
@@ -44,7 +53,10 @@ const Services = () => {
             alt="Litter and Debris Removal"
             className="service-image"
           />
-          <h2 className="title">Litter and Debris Removal</h2>
+          <h2 className="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="400"
+     data-aos-offset="0">Litter and Debris Removal</h2>
         </div>
       </section>
 
@@ -55,7 +67,10 @@ const Services = () => {
             alt="Landscape Design and Installation"
             className="service-image"
           />
-          <h2 className="title">Landscape Design and Installation</h2>
+          <h2 className="title" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="500"
+     data-aos-offset="0">Landscape Design and Installation</h2>
         </div>
       </section>
 

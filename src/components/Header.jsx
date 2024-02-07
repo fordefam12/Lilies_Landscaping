@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfo, faTools, faStar, faEnvelope, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../asstets/images/lilies landscaping.webp';
 import './Header.css'; // Import a separate CSS file for styling
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Add the AOS styles
+
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // Set the default duration (in milliseconds)
+    });
+  }, []);
+  
   return (
     <header>
-      <div className="logo-container">
+      <div className="logo-container" data-aos="fade-right">
         <Link to="/">
           <img src={Logo} alt="Lilies Landscaping Logo" />
         </Link>
@@ -26,5 +35,6 @@ const Header = () => {
     </header>
   );
 };
+
 
 export default Header;
