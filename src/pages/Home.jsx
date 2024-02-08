@@ -138,7 +138,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="section has-background-warning" data-aos="fade-up">
+      <section className="section has-background-link-info" data-aos="fade-up">
         <div className="container">
           <div className="columns">
             <div className="column is-one-third">

@@ -4,7 +4,6 @@ import "aos/dist/aos.css"; // Import AOS styles
 import AOS from "aos"; // Import AOS library
 import QRcode from '../asstets/images/qr-code (18).png';
 
-
 const Contact = () => {
   const clienthub_id = "05e404a5-097b-465d-abf8-7f8496c3da02";
   const formUrl =
@@ -29,8 +28,8 @@ const Contact = () => {
 
   return (
     <div className="columns is-centered">
-      <div className="column is-half has-text-centered">
-        <h2 className="title is-2" data-aos="fade-up">
+      <div className="column is-half has-text-centered ">
+        <h2 className="title is-2 has-text-white" data-aos="fade-up">
           Contact Lilie's Landscaping
         </h2>
         <img
@@ -45,7 +44,7 @@ const Contact = () => {
           name="button"
           type="button"
           id={`work-request-button-${clienthub_id}`}
-          className="button is-success has-text-danger-dark"
+          className="button is-success has-text-dark"
         >
           Request Your Free Quote
         </button>
