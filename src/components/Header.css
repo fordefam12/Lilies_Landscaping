@@ -5,37 +5,65 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #fff; /* Change this to your desired background color */
-  border-bottom: 1px solid #ccc; /* Add a border if desired */
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 
 .logo-container {
-  margin-right: auto; /* Pushes the logo to the far left */
+  margin-right: auto;
 }
 
 nav {
-  flex: 1; /* Takes remaining space, pushing the tabs to the center */
+  flex: 1;
 }
 
 nav ul {
   display: flex;
-  justify-content: center; /* Center the tabs */
+  justify-content: center;
   list-style: none;
 }
 
 nav ul li {
-  margin: 0 7rem; /* Increased spacing between links */
+  margin: 0 7rem;
 }
 
-nav ul li a {
+nav ul li {
   text-decoration: none;
-  color: #333; /* Change this to your desired text color */
+  color: #333;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-nav ul li a:hover {
-  color: #ff69b4; /* Pink hover color */
+nav ul li :hover {
+  color: #ff69b4;
 }
 
-.login-link {
-  margin-left: 7%; /* Reset margin to default (not auto) */
+nav ul li :hover::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  white-space: nowrap;
+  color: #333;
 }
+
+nav ul li ::before {
+  content: "";
+}
+
+.nav-bar {
+  background: #181818;
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  min-height: 500px;
+  left: 1px;
+  transition: top 0.3s;
+}
+
+/* Add any other styles or media queries as needed */

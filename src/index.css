@@ -63,3 +63,6 @@ body {
   color: #000; /* Content color */
   /* Additional styles for the content */
 }
+body .h1{
+  color: blueviolet;
+}
