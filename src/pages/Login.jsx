@@ -35,21 +35,8 @@ const Login = () => {
           <h1 className="title is-2 has-text-dark has-text-centered">Login</h1>
 
           <p className="mb-4 has-text-centered">
-          Request Your Free Quote {' '}
-            <animated.span
-              onMouseEnter={() => setHovered(true)}
-              onMouseLeave={() => setHovered(false)}
-              style={{
-                display: 'inline-block',
-                transform: buttonAnimation.scale.interpolate(scale => `scale(${scale})`),
-                cursor: 'pointer',
-                border: "solid #ddd",
-              }}
-            >
-              Log in
-            </animated.span>
-            {' '} to your account!
-            
+     
+            Request Your Free Quote {' '}
             <a href={loginUrl} target="_blank" rel="noopener noreferrer">
               <animated.span
                 onMouseEnter={() => setHovered(true)}
@@ -61,24 +48,26 @@ const Login = () => {
                   textDecoration: 'underline',
                 }}
               >
-                
+                Login
               </animated.span>
             </a>
-            
+            {' '} to your account!
           </p>
 
-          <div className="is-half has-text-centered">{/* Button from external source */}
-          Don't have an account?{' '}
-          <button
-            data-aos="zoom-in"
-            name="button"
-            type="button"
-            id={`work-request-button-${clienthub_id}`}
-            className="button is-success is-half "
-          >
+          {/* Container for the embedded form */}
+          <div className="embedded-form-container has-text-centered">
+            {/* Button from external source */}
+            Don't have an account?{' '}
+            <button
+              data-aos="zoom-in"
+              name="button"
+              type="button"
+              id={`work-request-button-${clienthub_id}`}
+              className="button is-success is-half"
+            >
               Sign up
-          </button>
-          here for free!
+            </button>
+            here for free!
           </div>
         </div>
       </div>
