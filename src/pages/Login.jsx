@@ -36,9 +36,10 @@ const Login = () => {
 
           <p className="mb-4 has-text-centered">
      
-            Request Your Free Quote {' '}
+            Request Your Free Quote! {' '}
             <a href={loginUrl} target="_blank" rel="noopener noreferrer">
               <animated.span
+              data-aos="zoom-in"
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
                 style={{
@@ -46,6 +47,7 @@ const Login = () => {
                   transform: buttonAnimation.scale.interpolate(scale => `scale(${scale})`),
                   cursor: 'pointer',
                   textDecoration: 'underline',
+                  
                 }}
               >
                 Login
