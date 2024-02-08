@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden; /* Prevent scrolling */
-  color: #b17acc; /* Medium purple text color */
+  color: #ffe600; /* Medium purple text color */
 }
 
 /* Apply the video as the background */
@@ -24,8 +24,8 @@ body {
 .your-submit-button-class {
   opacity: 0.8; /* Adjust the opacity as needed */
   border-radius: 100rem;
-  background-color: #574b4f; /* Darkish green button background color */
-  color: #b17acc; /* Medium purple button text color */
+  background-color: #4e8054; /* Darkish green button background color */
+  color: #ffd700; /* Medium purple button text color */
 }
 
 /* Add additional styles for your content */
@@ -36,13 +36,13 @@ body {
   transform: translate(-50%, -50%);
   z-index: 1; /* Place content above the video */
   text-align: center;
-  color: #fff; /* Set text color to white */
+  color: #ffd700; /* Set text color to white */
 }
 
 .text-mask-container {
   position: relative;
   font-size: 3em;
-  color: #fff; /* Text color */
+  color: #ffd700; /* Text color */
 }
 
 .text-mask {

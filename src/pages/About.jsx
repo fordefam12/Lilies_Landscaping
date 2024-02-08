@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import './About.css'; // Import a separate CSS file for additional styling
 import 'bulma/css/bulma.min.css';
+import './About.css'; // Import a separate CSS file for additional styling
 import Aimage from '../asstets/images/about image.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

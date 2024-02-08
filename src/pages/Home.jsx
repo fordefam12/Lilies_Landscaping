@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
+import 'bulma/css/bulma.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt, faCheckCircle, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Home.css';
-import 'bulma/css/bulma.min.css';
+
 
 const Home = () => {
   useEffect(() => {

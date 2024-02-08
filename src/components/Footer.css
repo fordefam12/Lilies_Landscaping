@@ -1,0 +1,21 @@
+body .footer { 
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  background-color: #94ff1942; 
+  padding: 2px; 
+  box-shadow: 0px -5px 10px rgba(255, 3, 3, 0.1); 
+} 
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.jobber-icon {
+  margin-right: 10px; /* Adjust as needed */
+}
