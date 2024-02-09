@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden; /* Prevent scrolling */
-  color: #ffe600; /* Medium purple text color */
+  color: #ffffff; /* Medium purple text color */
 }
 
 /* Apply the video as the background */
@@ -42,7 +42,7 @@ body {
 .text-mask-container {
   position: relative;
   font-size: 3em;
-  color: #ffd700; /* Text color */
+  color: #ffffff; /* Text color */
 }
 
 .text-mask {
@@ -64,5 +64,8 @@ body {
   /* Additional styles for the content */
 }
 body .h1{
+  color: blueviolet;
+}
+body .tile{
   color: blueviolet;
 }
