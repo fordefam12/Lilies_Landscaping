@@ -1,0 +1,16 @@
+.text-animate,
+.text-animate-hover {
+  font-family: 'Your Monospaced Font', monospace;
+  letter-spacing: 0; /* Set letter-spacing to 0 for monospaced fonts */
+  height: 50%;
+  font-size: 4em;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  
+}
+/* Example: Override the color of the title in the box */
+.box .title {
+    color: #41e90e !important;
+  }
+  
